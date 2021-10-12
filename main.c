@@ -35,7 +35,8 @@ void main(void) {
     while (1) { //infinite while loop - repeat forever
         
         //empty while loop (wait for button press)
-        while (PORTFbits.RF2 && PORTFbits.RF3); //both not pressed
+        //if none of the buttons are pressed, while loop repeat forever
+        while (PORTFbits.RF2 && PORTFbits.RF3);
         
         if (!PORTFbits.RF2)  LATDbits.LATD7 = !LATDbits.LATD7; //toggle LED 1
         
