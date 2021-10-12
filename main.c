@@ -34,9 +34,10 @@ void main(void) {
     
     while (1) { //infinite while loop - repeat forever
         
-        while (PORTFbits.RF2); //empty while loop (wait for button press)
+        //empty while loop (wait for button press)
+        while (PORTFbits.RF2 || PORTFbits.RF3); //both not pressed
         
-        if (!PORTFbits.RF2) {
+        if (!(PORTFbits.RF2 || PORTFbits.RF3)) {  //both pressed
             LATDbits.LATD7 = !LATDbits.LATD7; //toggle LED 1
             LATHbits.LATH3 = !LATDbits.LATD7; //LED 2 come on when LED 1 is not
         }
