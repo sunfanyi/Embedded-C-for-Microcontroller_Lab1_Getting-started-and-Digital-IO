@@ -1,0 +1,3 @@
+*.mk linguist-language=C
+*.md linguist-language=C
+*.xml linguist-language=C

@@ -12,7 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/lab-1-tues-sunfanyi/lab-1-tues-sunfanyi.X/main.c</itemPath>
+      <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab1_Getting-started-and-Digital-IO/lab-1-tues-sunfanyi.X/main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -21,7 +21,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>D:\Desktop\ME3\Embedded C for Microcontroller\lab-1-tues-sunfanyi\lab-1-tues-sunfanyi.X</Elem>
+    <Elem>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab1_Getting-started-and-Digital-IO/lab-1-tues-sunfanyi.X</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
